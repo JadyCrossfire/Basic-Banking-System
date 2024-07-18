@@ -148,12 +148,7 @@ body{
 
 
 
-
-
-
-
-
-
+/*Home About Section*/
 .home-about{
     display: flex;
     align-items: center;
@@ -189,8 +184,7 @@ body{
 }
 
 
-
-
+/*Home Services Section*/
 
 .home-services{
     background: var(--secondary-color);
@@ -256,9 +250,7 @@ body{
 
 
 
-
-
-/*Seperate Abput Page*/
+/*Seperate About Page*/
 
 .home-about{
     display: flex;
