@@ -1,0 +1,91 @@
+
+.table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9rem;
+    width: 100%;
+    /*min-width: 400px;*/
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.table thead tr{
+    background-color: var(--main-color);
+    color: var(--white);
+    text-align:left;
+    font-weight: bold;
+}
+
+
+.table thead tr th{
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.10rem;
+    color: var(--white);
+    vertical-align: top;
+    padding: 12px;
+    border: 1px solid var(--light-white);
+    text-align: center;
+}
+
+
+.table tbody tr td{
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.10rem;
+    padding: 8px;
+    text-align: center;
+}
+
+
+.table th,
+.table td{
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.table tbody tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+
+
+.table tbody tr:nth-of-type(even){
+    background-color: var(--white);
+}
+
+.table tbody tr:nth-of-type(odd){
+    background-color: var(--light-bg);
+}
+
+.table tbody tr:last-of-type{
+    border-bottom: 2px solid var(--main-color);
+}
+
+
+.table tbody tr:hover{
+    font-weight: bold;
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+
+.table .spl-btn{
+    width: 130px;
+    text-decoration: none;
+    line-height: 35px;
+    display: inline-block;
+    font-weight: 500;
+    color: var(--white);
+    background-color: var(--black);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+.table .spl-btn:hover{
+    background: var(--main-color);
+}

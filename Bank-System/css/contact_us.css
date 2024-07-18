@@ -1,0 +1,70 @@
+.contact-us .contact-us-form{
+    padding: 2rem;
+    background: var(--light-bg);
+    padding-top: 0.10rem;
+}
+
+
+.contact-us .contact-us-form .flex{
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+}
+
+.contact-us .contact-us-form .flex .inputBox{
+    flex: 1 1 41rem;
+    margin-top: 3rem;
+}
+
+.contact-us .contact-us-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+}
+
+.contact-us .contact-us-form .flex .inputBox input:focus{
+    background: var(--main-color);
+    color: var(--white);
+}
+
+
+.contact-us .contact-us-form .flex .inputBox input:focus::placeholder{
+    color: var(--light-white);
+}
+
+
+.contact-us .contact-us-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+
+.contact-us .contact-us-form .flex .inputBox textarea{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+}
+
+.contact-us .contact-us-form .flex .inputBox textarea:focus{
+    background: var(--main-color);
+    color: var(--white);
+}
+
+
+.contact-us .contact-us-form .flex .inputBox textarea:focus::placeholder{
+    color: var(--light-white);
+}
+
+
+.contact-us .contact-us-form .btn{
+    margin-top: 3rem;
+}
+

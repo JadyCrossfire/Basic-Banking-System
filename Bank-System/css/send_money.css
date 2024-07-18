@@ -1,0 +1,51 @@
+.table-container {
+    padding: 0 10%;
+    margin: 40px auto 0;
+}
+
+.send-money .send-money-form {
+    padding: 2rem;
+    background: var(--light-bg);
+}
+
+.send-money .send-money-form .flex {
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+}
+
+.send-money .send-money-form .flex .inputBox {
+    flex: 1 1 41rem;
+}
+
+.send-money .send-money-form .flex .inputBox input,
+.send-money .send-money-form .flex .inputBox select {
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+    box-sizing: border-box; /* Ensures padding and border are included in the width */
+}
+
+.send-money .send-money-form .flex .inputBox input:focus,
+.send-money .send-money-form .flex .inputBox select:focus {
+    background: var(--main-color);
+    color: var(--white);
+}
+
+.send-money .send-money-form .flex .inputBox input:focus::placeholder,
+.send-money .send-money-form .flex .inputBox select:focus::placeholder {
+    color: var(--light-white);
+}
+
+.send-money .send-money-form .flex .inputBox span {
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.send-money .send-money-form .btn {
+    margin-top: 2rem;
+}

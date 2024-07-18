@@ -1,0 +1,46 @@
+.check-balance .check-balance-form{
+    padding: 2rem;
+    background: var(--light-bg);
+}
+
+
+.check-balance .check-balance-form .flex{
+    display: grid;
+    align-items: center;
+    gap: 2rem;
+}
+
+.check-balance .check-balance-form .flex .inputBox{
+    flex: 1 1 41rem;
+}
+
+.check-balance .check-balance-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: 1.5rem;
+    border: var(--border);
+}
+
+.check-balance .check-balance-form .flex .inputBox input:focus{
+    background: var(--main-color);
+    color: var(--white);
+}
+
+
+.check-balance .check-balance-form .flex .inputBox input:focus::placeholder{
+    color: var(--light-white);
+}
+
+
+.check-balance .check-balance-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.check-balance .check-balance-form .btn{
+    margin-top: 2rem;
+}
+

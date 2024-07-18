@@ -1,0 +1,6 @@
+This is a project website created by <strong>Jeyadarshini S</strong> for the Graduate Rotational Internship Program, conducted by The Sparks Foundation. This project is created to complete the Task 1 for the 'Web and Mobile Development' category, which challenges the interns to build a simple banking website that demonstrates a specific user flow.</p>
+MAIN USER FLOW: User opens the Home Page > Goes to "View All Users" page > Finds their bank account details > Clicks "Send Money" > Fills in transaction details > Transaction success is updated on "Transactions" log page > Sender and Reciever balances are updated > End. 
+
+LANGUAGES USED:</strong> HTML, CSS, JAVASCRIPT, PHP, MYSQL.</p>
+
+HTML, CSS and Javascript is used for creating a robust, functional front-end while PHP and MySQL served for the back-end processes.</p>

@@ -1,0 +1,384 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+:root{
+    --main-color:#cb0c95;
+    --black:#222;
+    --white:#fff;
+    --light-black:#777;
+    --light-white:#fff9;
+    --dark-bg:rgba(0,0,0,.7);
+    --light-bg:#eee;
+    --secondary-color:#191852;
+    --border:.1rem solid var(--black);
+    --box-shadow:0 .5rem 1rem rgba(101, 101, 101, 0.226);
+    --box-shadow-white:0 .5rem 1rem rgba(159, 159, 159, 0.418);
+    --text-shadow:0 1.5rem 3rem rgba(0,0,0,.3);
+}
+
+
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+html{
+    font-size:62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1rem;
+}
+
+
+html::-webkit-scrollbar-track{
+    background-color: var(--black);
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: var(--main-color);
+}
+
+
+.btn{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--main-color);
+}
+
+
+
+
+
+.home{
+    padding: 0;
+    background-color: var(--secondary-color);
+}
+
+
+.home{
+    padding: 0;
+}
+
+.home .home-hero{
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover !important;
+    background-position: center !important;
+    min-height: 60rem;
+}
+
+.home .home-hero .content{
+    width: 85rem;
+}
+
+.home .home-hero .content span{
+    display: block;
+    font-size: 2.2rem;
+    color: var(--light-white);
+    padding-bottom: 1rem;
+    animation: fadeIn .2s linear backwards .2s;
+}
+
+
+.home .home-hero .content h3{
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);
+    padding: 1rem 0;
+    animation: fadeIn .2s linear backwards .4s;
+}
+
+
+
+body{
+    background-color: var(--secondary-color);
+}
+
+
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1.5rem;
+}
+
+.services .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background: var(--black);
+    cursor: pointer;
+}
+
+
+.services .box-container .box:hover{
+    background: var(--main-color);
+} 
+
+
+.services .box-container .box img{
+    height: 10rem;
+}
+
+.services .box-container .box h3{
+    color: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex: 1 1 41rem;
+}
+
+.home-about .image img{
+    width: 100%;
+    height: auto;
+}
+
+.home-about .content{
+    flex:1 1 41rem;
+    padding: 3rem;
+    background: var(--light-black);
+}
+
+.home-about .content h3{
+    font-size: 3rem;
+    color: var(--white);
+}
+
+
+.home-about .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--light-white);
+}
+
+
+
+
+
+.home-services{
+    background: var(--secondary-color);
+}
+
+.home-services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 2rem;
+}
+
+.home-services .box-container .box{
+    border: var(--border);
+    box-shadow: var(--box-shadow-white);
+    background: var(--white);
+}
+
+.home-services .box-container .box:hover .image img{
+    transform: scale(1.1);
+}
+
+
+.home-services .box-container .box .image{
+    height: 25rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--main-color);
+}
+
+
+.home-services .box-container .box .image img{
+    height: auto;
+    width: auto;
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+    transition: .2s linear;
+}
+
+
+.home-services .box-container .box .content{
+    padding: 2rem;
+    text-align: center;
+    background-color: var(--light-white);
+}
+
+
+.home-services .box-container .box .content h3{
+    font-size: 2.5rem;
+    color: var(--secondary-color);
+}
+
+
+.home-services .box-container .box .content p{
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+
+
+
+
+
+/*Seperate Abput Page*/
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex: 1 1 41rem;
+}
+
+.home-about .image img{
+    width: 65%;
+    height: auto;
+    max-width: 100%; /* Ensures the image does not exceed the container width */
+    display: block; /* Removes any inline-block spacing issues */
+    object-fit: contain; /* Ensures the image fits within the container without cropping */
+    margin: 0 auto; 
+}
+
+.home-about .content{
+    flex:1 1 41rem;
+    padding: 3rem;
+    background: var(--light-bg);
+}
+
+.home-about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+}
+
+
+.home-about .content p{
+    font-size: 1.5rem;
+    padding: 1rem 0;
+    line-height: 2;
+    color: var(--black);
+}
+
+
+
+
+
+/* media queries - Deals with responsiveness*/
+
+@media (max-width:1200px){
+
+    section{
+        padding:3rem 5%;
+    }
+
+    .home-services .box {
+        flex: 1 1 calc(50% - 2rem);
+    }
+}
+
+
+@media (max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+
+    section{
+        padding:3rem 2rem;
+    }
+
+    .home .slide .content h3{
+        font-size: 10vw;
+    }
+
+}
+
+@media (max-width:768px){
+
+    #menu-btn{
+        display: inline-block;
+        transition: .2s linear;
+    }
+
+    #menu-btn.fa-times{
+        transform: rotate(180deg);
+    }
+    
+
+    .header .navbar{
+        position: absolute;
+        top: 99%; left: 0; right: 0;
+        background-color: var(--black);
+        border-top: var(--border);
+        padding: 2rem;
+        transition: .2s linear;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .header .navbar.active{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .header .navbar a{
+        display: block;
+        margin: 2rem;
+        text-align: center;
+    }
+
+    .home-services .box {
+        flex: 1 1 100%;
+    }
+
+}
+
+
+@media (max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+
+    .heading-title{
+        font-size: 3.5rem;
+    }
+
+}
